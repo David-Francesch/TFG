@@ -107,9 +107,8 @@
                 android:text="Birth Date" />
 
             <CalendarView
-                android:layout_height="220dp"
-                android:layout_width="match_parent">
-            </CalendarView>
+                android:layout_width="292dp"
+                android:layout_height="222dp"></CalendarView>
         </TableRow>
     </TableLayout>
 
