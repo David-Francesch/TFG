@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">TFG</string>
+    <string name="userName">USERNAME_PLACEHOLDER</string>
+    <string name="description">DESCRIPTION_PLACEHOLDER</string>
+    <string name="gustos">GUSTOS_PLACEHOLDER</string>
+    <string name="register">I don\'t have an account</string>
 </resources>
