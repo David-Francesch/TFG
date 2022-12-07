@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void OpenRegister(View view){
-        Intent intenReg = new Intent(this, RegisterWindow.class);
-        startActivity(intenReg);
+        Intent intentReg = new Intent(this, RegisterWindow.class);
+        startActivity(intentReg);
     }
 }
