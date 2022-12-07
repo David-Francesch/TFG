@@ -17,11 +17,13 @@ public class MainActivity extends AppCompatActivity {
     public void openRegister(View view){
         Intent intentReg = new Intent(this, RegisterWindow.class);
         startActivity(intentReg);
+        finishAfterTransition();
     }
 
     public void loginProcess(View view){
         Intent intentLog = new Intent(this, Profile.class);
         //if ()
         startActivity(intentLog);
+        finishAfterTransition();
     }
 }
