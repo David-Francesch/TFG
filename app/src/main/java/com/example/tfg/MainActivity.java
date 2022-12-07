@@ -14,8 +14,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void OpenRegister(View view){
+    public void openRegister(View view){
         Intent intentReg = new Intent(this, RegisterWindow.class);
         startActivity(intentReg);
+    }
+
+    public void loginProcess(View view){
+        Intent intentLog = new Intent(this, Profile.class);
+        //if ()
+        startActivity(intentLog);
     }
 }

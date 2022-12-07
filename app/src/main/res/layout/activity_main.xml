@@ -82,7 +82,9 @@
         android:layout_marginBottom="192dp"
         android:text="LogIn"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/shape"
+        android:onClick="loginProcess"/>
 
     <TextView
         android:id="@+id/RegisterText"
@@ -92,7 +94,7 @@
         android:clickable="true"
         android:gravity="center"
         android:minHeight="48dp"
-        android:onClick="OpenRegister"
+        android:onClick="openRegister"
         android:text="@string/register"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.459"
