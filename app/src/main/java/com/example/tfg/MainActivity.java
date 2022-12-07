@@ -17,7 +17,6 @@ public class MainActivity extends AppCompatActivity {
     public void openRegister(View view){
         Intent intentReg = new Intent(this, RegisterWindow.class);
         startActivity(intentReg);
-        finishAfterTransition();
     }
 
     public void loginProcess(View view){
