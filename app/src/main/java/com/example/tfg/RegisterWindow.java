@@ -4,7 +4,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class RegisterWindow extends AppCompatActivity {
-    int test = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
