@@ -25,4 +25,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intentLog);
         finishAfterTransition();
     }
+    public void forgotPass(View view){
+        Intent intentFPass = new Intent(this, loginv2.class);
+        startActivity(intentFPass);
+    }
 }
