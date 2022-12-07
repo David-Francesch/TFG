@@ -4,13 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegisterWindow">
+    tools:context=".RegisterWindow"
+    android:background="@drawable/bg_colors"
+    style="@style/AppTheme">
 
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp">
+        tools:layout_editor_absoluteY="0dp"
+        android:background="@drawable/bg_colors">
 
         <TableRow
             android:layout_width="match_parent"
@@ -22,15 +25,17 @@
                 android:id="@+id/nameReg"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Name"/>
+                android:text="@string/nombre"/>
 
             <EditText
                 android:id="@+id/editTextTextPersonName2"
+                style="@style/textInputs"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="" />
+                android:minHeight="48dp"
+                android:hint="@string/nombre"/>
         </TableRow>
 
         <TableRow
@@ -43,15 +48,17 @@
                 android:id="@+id/LastNReg"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="LastName" />
+                android:text="@string/apellido" />
 
             <EditText
                 android:id="@+id/editTextTextPersonName"
+                style="@style/textInputs"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="" />
+                android:minHeight="48dp"
+                android:hint="@string/apellido"/>
         </TableRow>
 
         <TableRow
@@ -63,15 +70,17 @@
                 android:id="@+id/UserReg"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Username" />
+                android:text="@string/usuario" />
 
             <EditText
                 android:id="@+id/editTextTextPersonName4"
+                style="@style/textInputs"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="" />
+                android:minHeight="48dp"
+                android:hint="@string/usuario"/>
         </TableRow>
 
         <TableRow
@@ -83,14 +92,17 @@
                 android:id="@+id/PassReg"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Password" />
+                android:text="@string/password" />
 
             <EditText
                 android:id="@+id/editTextTextPassword"
+                style="@style/textInputs"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="textPassword" />
+                android:inputType="textPassword"
+                android:minHeight="48dp"
+                android:hint="@string/password"/>
 
         </TableRow>
 
@@ -104,11 +116,11 @@
                 android:id="@+id/BirthReg"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Birth Date" />
+                android:text="@string/dob" />
 
             <CalendarView
-                android:layout_width="292dp"
-                android:layout_height="222dp"></CalendarView>
+                android:layout_width="265dp"
+                android:layout_height="232dp"></CalendarView>
         </TableRow>
     </TableLayout>
 

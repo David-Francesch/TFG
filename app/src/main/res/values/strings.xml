@@ -4,4 +4,10 @@
     <string name="description">DESCRIPTION_PLACEHOLDER</string>
     <string name="gustos">GUSTOS_PLACEHOLDER</string>
     <string name="register">I don\'t have an account</string>
+    <string name="nombre">Name</string>
+    <string name="apellido">Last Name</string>
+    <string name="usuario">Username</string>
+    <string name="correo">e-Mail</string>
+    <string name="password">Password</string>
+    <string name="dob">Date Of Birth</string>
 </resources>

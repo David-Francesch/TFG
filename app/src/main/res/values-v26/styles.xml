@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+    </style>
     <style name="RegRows">
         <item name="android:paddingVertical">20dp</item>
     </style>
     <style name="TextReg">
         <item name="android:layout_marginHorizontal">10dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textAlignment">center</item>
     </style>
+    <style name="TextLabels">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+    <style name="BtnTextLabels" parent="TextLabels">
+        <item name="android:textSize">15dp</item>
+    </style>
+    <style name="textInputs">
+        <item name="android:background">@drawable/textfields</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
 </resources>
