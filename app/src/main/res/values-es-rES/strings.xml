@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TFG</string>
+    <string name="userName">NOMBRE_DE_USUARIO_TEMPORAL</string>
+    <string name="description">DESCRIPCION_TEMPORAL</string>
+    <string name="gustos">GUSTOS_TEMPORAL</string>
+    <string name="register">No tengo una cuenta</string>
+    <string name="login">Inicio</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="usuario">Usuario</string>
+    <string name="correo">Correo</string>
+    <string name="password">Contraseña</string>
+    <string name="dob">Fecha de \nNacimiento</string>
+    <string name="forgetPw">Contraseña Olvidada</string>
+</resources>

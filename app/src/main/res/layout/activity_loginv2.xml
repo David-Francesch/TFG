@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".loginv2">
+    tools:context=".loginv2"
+    android:background="@drawable/bg_colors">
 
     <ImageView
         android:id="@+id/fondo"
@@ -35,7 +36,7 @@
             android:layout_centerInParent="true"
             android:layout_marginTop="75dp"
             android:paddingTop="5dp"
-            android:text="Username"
+            android:text="@string/usuario"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -49,7 +50,8 @@
             android:layout_centerInParent="true"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text=""
+            android:hint="@string/password"
+            style="@style/textInputs"
             android:background="@drawable/textfields"
             android:layout_marginTop="160dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -65,7 +67,7 @@
             android:layout_centerInParent="true"
             android:layout_marginTop="135dp"
             android:paddingTop="5dp"
-            android:text="Password"
+            android:text="@string/password"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -81,7 +83,8 @@
             android:background="@drawable/textfields"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text=""
+            android:hint="@string/usuario"
+            style="@style/textInputs"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -94,8 +97,8 @@
             android:layout_alignParentRight="true"
             android:layout_centerInParent="true"
             android:layout_marginRight="100dp"
-            android:text="Forgot Password"
-            android:textSize="11dp"></TextView>
+            android:text="@string/forgetPw"
+            android:textSize="11dp"/>
 
         <TextView
             android:id="@+id/RegisterText"
@@ -114,16 +117,16 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginHorizontal="70dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/loginbutton"
+            android:text="@string/login"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:background="@drawable/loginbutton"
-            android:layout_centerInParent="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginBottom="50dp"
-            android:layout_marginHorizontal="70dp"
-            android:text="Login"/>
+            app:layout_constraintTop_toTopOf="parent" />
 
     </RelativeLayout>
 
