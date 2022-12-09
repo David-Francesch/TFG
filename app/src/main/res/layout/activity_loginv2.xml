@@ -20,6 +20,7 @@
 
         <TextView
             android:id="@+id/textView"
+            style="@style/TextLabels"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
@@ -27,7 +28,6 @@
             android:layout_marginTop="75dp"
             android:paddingTop="5dp"
             android:text="@string/usuario"
-            style="@style/TextLabels"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -36,13 +36,11 @@
         <EditText
             android:id="@+id/pass"
             style="@style/textInputs"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
             android:layout_alignParentTop="true"
             android:layout_centerInParent="true"
             android:layout_marginTop="160dp"
-            android:background="@drawable/textfields"
-            android:ems="10"
             android:hint="@string/password"
             android:inputType="textPersonName"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -52,13 +50,13 @@
 
         <TextView
             android:id="@+id/passd"
+            style="@style/TextLabels"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerInParent="true"
             android:layout_marginTop="135dp"
             android:paddingTop="5dp"
-            style="@style/TextLabels"
             android:text="@string/password"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -68,13 +66,11 @@
         <EditText
             android:id="@+id/editTextTextPersonName3"
             style="@style/textInputs"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
             android:layout_alignParentTop="true"
             android:layout_centerInParent="true"
             android:layout_marginTop="100dp"
-            android:background="@drawable/textfields"
-            android:ems="10"
             android:hint="@string/usuario"
             android:inputType="textPersonName"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -90,7 +86,8 @@
             android:layout_centerInParent="true"
             android:layout_marginRight="100dp"
             android:text="@string/forgetPw"
-            android:textSize="11dp" />
+            android:textSize="11dp"
+            style="@style/BtnTextLabels"/>
 
         <TextView
             android:id="@+id/RegisterText"
