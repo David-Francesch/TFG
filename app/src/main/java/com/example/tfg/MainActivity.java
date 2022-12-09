@@ -1,6 +1,8 @@
 package com.example.tfg;
 
+import android.content.ActivityNotFoundException;
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -51,6 +53,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void registroPlatforms(View view){
-
+        if (view.getId() == R.id.googlelogo){
+            Intent googleIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/"));
+            startActivity(googleIntent);
+        }
+        if (view.getId() == R.id.spotigyloo){
+            Intent spotifyIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://open.spotify.com/"));
+            startActivity(spotifyIntent);
+        }
+        if (view.getId() == R.id.soundcloudlogo){
+            Intent soundcloudIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://soundcloud.com/"));
+            startActivity(soundcloudIntent);
+        }
     }
 }
