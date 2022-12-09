@@ -11,12 +11,12 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:background="@drawable/fondoshape"
+        android:backgroundTint="@color/whiteTransparente"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHeight_percent=".55"
-        android:alpha="0.5">
+        app:layout_constraintHeight_percent=".75">
 
         <TextView
             android:id="@+id/textView"
@@ -27,6 +27,7 @@
             android:layout_marginTop="75dp"
             android:paddingTop="5dp"
             android:text="@string/usuario"
+            style="@style/TextLabels"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -34,20 +35,20 @@
 
         <EditText
             android:id="@+id/pass"
+            style="@style/textInputs"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerInParent="true"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="@string/password"
-            style="@style/textInputs"
-            android:background="@drawable/textfields"
             android:layout_marginTop="160dp"
+            android:background="@drawable/textfields"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPersonName"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/passd"
@@ -57,6 +58,7 @@
             android:layout_centerInParent="true"
             android:layout_marginTop="135dp"
             android:paddingTop="5dp"
+            style="@style/TextLabels"
             android:text="@string/password"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -65,6 +67,7 @@
 
         <EditText
             android:id="@+id/editTextTextPersonName3"
+            style="@style/textInputs"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
@@ -72,9 +75,8 @@
             android:layout_marginTop="100dp"
             android:background="@drawable/textfields"
             android:ems="10"
-            android:inputType="textPersonName"
             android:hint="@string/usuario"
-            style="@style/textInputs"
+            android:inputType="textPersonName"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -88,7 +90,7 @@
             android:layout_centerInParent="true"
             android:layout_marginRight="100dp"
             android:text="@string/forgetPw"
-            android:textSize="11dp"/>
+            android:textSize="11dp" />
 
         <TextView
             android:id="@+id/RegisterText"
@@ -128,7 +130,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.15"
+        app:layout_constraintVertical_bias="0.05"
         android:textColor="@color/white">
 
     </TextView>
