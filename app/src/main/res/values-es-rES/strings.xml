@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">TFG</string>
+    <string name="accept">Aceptar</string>
+    <string name="cancel">Cancelar</string>
     <string name="userName">NOMBRE_DE_USUARIO_TEMPORAL</string>
     <string name="description">DESCRIPCION_TEMPORAL</string>
     <string name="gustos">GUSTOS_TEMPORAL</string>
@@ -16,4 +18,5 @@
     <string name="incorrectUser">Nombre de usuario incorrecto</string>
     <string name="incorrectPass">Contraseña incorrecta</string>
     <string name="incorrectUserPass">Usuario y contraseña incorrecta</string>
+    <string name="landscapeError">La aplicación no está hecha para ser usada en modo horizontal\nPor favor gira el teléfono verticalmente</string>
 </resources>

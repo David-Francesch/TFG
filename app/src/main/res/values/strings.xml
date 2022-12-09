@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">TFG</string>
+    <string name="accept">Accept</string>
+    <string name="cancel">Cancel</string>
     <string name="userName">USERNAME_PLACEHOLDER</string>
     <string name="description">DESCRIPTION_PLACEHOLDER</string>
     <string name="gustos">GUSTOS_PLACEHOLDER</string>
@@ -15,4 +17,5 @@
     <string name="incorrectUser">Incorrect user name</string>
     <string name="incorrectPass">Incorrect password name</string>
     <string name="incorrectUserPass">Incorrect user name and password</string>
+    <string name="landscapeError">The app is not made to be used in landscape mode\nPlease turn your phone vertically</string>
 </resources>

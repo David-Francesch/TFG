@@ -8,24 +8,50 @@
     android:background="@drawable/bg_colors"
     style="@style/AppTheme">
 
+    <Button
+        android:id="@+id/btAccept"
+        android:layout_width="159dp"
+        android:layout_height="75dp"
+        android:text="@string/accept"
+        android:layout_marginBottom="45dp"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/loginbutton"
+        android:onClick="accept"/>
+
+    <Button
+        android:id="@+id/btCancel"
+        android:text="@string/cancel"
+        android:layout_width="159dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="45dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/loginbutton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:onClick="cancel"/>
+
     <TableLayout
+        android:id="@+id/tableLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@drawable/bg_colors"
+        android:paddingRight="5dp"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp"
-        android:background="@drawable/bg_colors">
+        tools:layout_editor_absoluteY="0dp">
 
         <TableRow
+            style="@style/RegRows"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            style="@style/RegRows">
+            android:layout_height="match_parent">
 
             <TextView
-                style="@style/TextReg"
                 android:id="@+id/nameReg"
+                style="@style/TextReg"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nombre"/>
+                android:text="@string/nombre" />
 
             <EditText
                 android:id="@+id/editTextTextPersonName2"
@@ -33,9 +59,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:hint="@string/nombre"
                 android:inputType="textPersonName"
-                android:minHeight="48dp"
-                android:hint="@string/nombre"/>
+                android:minHeight="48dp" />
         </TableRow>
 
         <TableRow
@@ -44,8 +70,8 @@
             android:layout_height="match_parent">
 
             <TextView
-                style="@style/TextReg"
                 android:id="@+id/LastNReg"
+                style="@style/TextReg"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/apellido" />
@@ -56,18 +82,69 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:hint="@string/apellido"
                 android:inputType="textPersonName"
-                android:minHeight="48dp"
-                android:hint="@string/apellido"/>
+                android:minHeight="48dp" />
         </TableRow>
 
         <TableRow
             style="@style/RegRows"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+
             <TextView
+                android:id="@+id/emailText"
                 style="@style/TextReg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/correo" />
+
+            <EditText
+                android:id="@+id/editTexteMail"
+                style="@style/textInputs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/correo"
+                android:inputType="textEmailAddress"
+                android:minHeight="48dp" />
+        </TableRow>
+
+        <TableRow
+            style="@style/RegRows"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/BirthReg"
+                style="@style/TextReg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dob" />
+
+            <TextView
+                android:id="@+id/editTextDOB"
+                style="@style/textInputs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/dob"
+                android:inputType="date"
+                android:minHeight="48dp"
+                android:onClick="chooseDate" />
+
+
+        </TableRow>
+
+        <TableRow
+            style="@style/RegRows"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
                 android:id="@+id/UserReg"
+                style="@style/TextReg"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/usuario" />
@@ -78,18 +155,19 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:hint="@string/usuario"
                 android:inputType="textPersonName"
-                android:minHeight="48dp"
-                android:hint="@string/usuario"/>
+                android:minHeight="48dp" />
         </TableRow>
 
         <TableRow
+            style="@style/RegRows"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            style="@style/RegRows">
+            android:layout_height="match_parent">
+
             <TextView
-                style="@style/TextReg"
                 android:id="@+id/PassReg"
+                style="@style/TextReg"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/password" />
@@ -100,27 +178,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:hint="@string/password"
                 android:inputType="textPassword"
-                android:minHeight="48dp"
-                android:hint="@string/password"/>
+                android:minHeight="48dp" />
 
-        </TableRow>
-
-        <TableRow
-            style="@style/RegRows"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <TextView
-                style="@style/TextReg"
-                android:id="@+id/BirthReg"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/dob" />
-
-            <CalendarView
-                android:layout_width="265dp"
-                android:layout_height="232dp"></CalendarView>
         </TableRow>
     </TableLayout>
 
