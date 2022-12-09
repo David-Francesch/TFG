@@ -59,7 +59,7 @@
         app:layout_constraintTop_toTopOf="parent"/>
 
     <EditText
-        android:id="@+id/PassField"
+        android:id="@+id/passField"
         android:layout_width="213dp"
         android:layout_height="45dp"
         android:layout_marginEnd="36dp"
@@ -82,7 +82,7 @@
         android:onClick="forgotPass"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/PassField"
+        app:layout_constraintTop_toBottomOf="@+id/passField"
         app:layout_constraintVertical_bias="0.0"
         style="@style/BtnTextLabels"/>
 

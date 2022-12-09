@@ -13,4 +13,7 @@
     <string name="password">Contraseña</string>
     <string name="dob">Fecha de \nNacimiento</string>
     <string name="forgetPw">Contraseña Olvidada</string>
+    <string name="incorrectUser">Nombre de usuario incorrecto</string>
+    <string name="incorrectPass">Contraseña incorrecta</string>
+    <string name="incorrectUserPass">Usuario y contraseña incorrecta</string>
 </resources>

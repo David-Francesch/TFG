@@ -12,4 +12,7 @@
     <string name="password">Password</string>
     <string name="dob">Date Of Birth</string>
     <string name="forgetPw">Forget Password</string>
+    <string name="incorrectUser">Incorrect user name</string>
+    <string name="incorrectPass">Incorrect password name</string>
+    <string name="incorrectUserPass">Incorrect user name and password</string>
 </resources>
