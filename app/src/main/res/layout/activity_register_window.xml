@@ -39,7 +39,8 @@
         android:background="@drawable/bg_colors"
         android:paddingRight="5dp"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp">
+        tools:layout_editor_absoluteY="0dp"
+        android:paddingTop="15dp">
 
         <TableRow
             style="@style/RegRows"
