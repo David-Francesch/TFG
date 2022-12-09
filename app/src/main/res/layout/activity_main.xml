@@ -47,7 +47,7 @@
 
     <EditText
         style="@style/textInputs"
-        android:id="@+id/UserField"
+        android:id="@+id/userField"
         android:layout_width="212dp"
         android:layout_height="48dp"
         android:layout_marginTop="208dp"
