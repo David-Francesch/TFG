@@ -17,7 +17,6 @@ import java.util.Calendar;
 public class RegisterWindow extends AppCompatActivity implements DatePickerDialog.OnDateSetListener {
 
     TextView fechaText;
-    int test;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

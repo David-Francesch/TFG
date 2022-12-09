@@ -49,4 +49,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intentFPass = new Intent(this, loginv2.class);
         startActivity(intentFPass);
     }
+
+    public void registroPlatforms(View view){
+
+    }
 }

@@ -8,7 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="blackT">#B2000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="whiteTransparente">#80FFFFFF</color>
+    <color name="whiteTransparente">#40FFFFFF</color>
     <color name="green">#62DA4C</color>
     <color name="logbt">#664CDA</color>
     <color name="nose">#66FF0000</color>
