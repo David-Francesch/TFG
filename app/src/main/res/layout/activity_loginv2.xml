@@ -148,11 +148,11 @@
 
         <ImageButton
             android:id="@+id/soundcloudlogo"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginLeft="240dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="235dp"
             android:background="@drawable/soundcloudlogo"
-            android:layout_marginBottom="30dp"
+            android:layout_marginBottom="26dp"
             android:layout_alignParentBottom="true"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
