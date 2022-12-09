@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerInParent="true"
-            android:layout_marginTop="75dp"
+            android:layout_marginTop="140dp"
             android:paddingTop="5dp"
             android:text="@string/usuario"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -40,7 +40,7 @@
             android:layout_height="35dp"
             android:layout_alignParentTop="true"
             android:layout_centerInParent="true"
-            android:layout_marginTop="160dp"
+            android:layout_marginTop="260dp"
             android:hint="@string/password"
             android:inputType="textPersonName"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -55,7 +55,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerInParent="true"
-            android:layout_marginTop="135dp"
+            android:layout_marginTop="220dp"
             android:paddingTop="5dp"
             android:text="@string/password"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -70,7 +70,7 @@
             android:layout_height="35dp"
             android:layout_alignParentTop="true"
             android:layout_centerInParent="true"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="180dp"
             android:hint="@string/usuario"
             android:inputType="textPersonName"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -80,25 +80,27 @@
 
         <TextView
             android:id="@+id/fpass"
+            style="@style/BtnTextLabels"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
             android:layout_alignParentRight="true"
             android:layout_centerInParent="true"
-            android:layout_marginRight="100dp"
-            android:text="@string/forgetPw"
-            android:textSize="11dp"
-            style="@style/BtnTextLabels"/>
+            android:layout_marginTop="300dp"
+            android:layout_marginRight="110dp"
+            android:text="@string/forgetPw" />
 
         <TextView
             android:id="@+id/RegisterText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="100dp"
             android:clickable="true"
             android:onClick="openRegister"
+            style="@style/BtnTextLabels"
             android:text="@string/register"
-            android:layout_centerInParent="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginBottom="100dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -115,7 +117,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintTop_toTopOf="parent" />
 
     </RelativeLayout>
 

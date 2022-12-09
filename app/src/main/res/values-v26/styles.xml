@@ -19,7 +19,7 @@
     </style>
     <style name="BtnTextLabels" parent="TextLabels">
         <item name="android:textSize">15dp</item>
-        <item name="android:textColor">@color/black</item>
+        <item name="android:textColor">@color/blackT</item>
     </style>
     <style name="textInputs">
         <item name="android:background">@drawable/textfields</item>
