@@ -10,8 +10,8 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    String userNameAdmin = "Admin";
-    String passwordAdmin = "Admin.123";
+    String userNameAdmin = "admin";
+    String passwordAdmin = "admin";
     EditText userNameField;
     EditText passwordField;
 

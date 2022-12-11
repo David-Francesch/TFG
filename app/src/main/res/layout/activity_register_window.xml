@@ -180,7 +180,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="@string/password"
-                android:inputType="textPassword"
+                android:inputType="textVisiblePassword"
                 android:minHeight="48dp" />
 
         </TableRow>
