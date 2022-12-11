@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".loginv2"
+    tools:context=".ForgotPw"
     android:background="@drawable/bg_colors">
 
     <RelativeLayout
@@ -19,102 +19,46 @@
         app:layout_constraintHeight_percent=".75">
 
         <TextView
-            android:id="@+id/usertx"
+            android:id="@+id/userMail"
             style="@style/TextLabels"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="281dp"
+            android:layout_height="71dp"
             android:layout_alignParentTop="true"
             android:layout_centerInParent="true"
-            android:layout_marginTop="140dp"
+            android:layout_marginTop="108dp"
             android:paddingTop="5dp"
-            android:text="@string/usuario"
+            android:text="@string/userOrMail"
+            android:textSize="30sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
-            android:id="@+id/passet"
+            android:id="@+id/userMailInput"
             style="@style/textInputs"
-            android:layout_width="200dp"
-            android:layout_height="35dp"
-            android:layout_alignParentTop="true"
-            android:layout_centerInParent="true"
-            android:layout_marginTop="260dp"
-            android:hint="@string/password"
-            android:inputType="textPersonName"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <TextView
-            android:id="@+id/passtx"
-            style="@style/TextLabels"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_centerInParent="true"
-            android:layout_marginTop="220dp"
-            android:paddingTop="5dp"
-            android:text="@string/password"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <EditText
-            android:id="@+id/useret"
-            style="@style/textInputs"
-            android:layout_width="200dp"
-            android:layout_height="35dp"
+            android:layout_width="282dp"
+            android:layout_height="97dp"
             android:layout_alignParentTop="true"
             android:layout_centerInParent="true"
             android:layout_marginTop="180dp"
-            android:hint="@string/usuario"
-            android:inputType="textPersonName"
+            android:hint="@string/userOrMail"
+            android:inputType="textNoSuggestions"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <TextView
-            android:id="@+id/fpass"
-            style="@style/BtnTextLabels"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentRight="true"
-            android:layout_centerInParent="true"
-            android:layout_marginTop="300dp"
-            android:layout_marginRight="110dp"
-            android:text="@string/forgetPw" />
-
-        <TextView
-            android:id="@+id/RegisterText"
-            style="@style/BtnTextLabels"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_centerInParent="true"
-            android:layout_marginBottom="150dp"
-            android:clickable="true"
-            android:onClick="openRegister"
-            android:text="@string/register"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
             android:id="@+id/loginbt"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="277dp"
+            android:layout_height="88dp"
             android:layout_alignParentBottom="true"
             android:layout_centerInParent="true"
             android:layout_marginHorizontal="70dp"
             android:layout_marginBottom="100dp"
             android:background="@drawable/loginbutton"
-            android:text="@string/login"
+            android:text="@string/accept"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

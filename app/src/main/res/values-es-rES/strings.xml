@@ -19,4 +19,5 @@
     <string name="incorrectPass">Contraseña incorrecta</string>
     <string name="incorrectUserPass">Usuario y contraseña incorrecta</string>
     <string name="landscapeError">La aplicación no está hecha para ser usada en modo horizontal\nPor favor gira el teléfono verticalmente</string>
+    <string name="userOrMail">Usuario o correo</string>
 </resources>

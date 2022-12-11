@@ -1,13 +1,11 @@
 package com.example.tfg;
 
-import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -48,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     public void forgotPass(View view){
-        Intent intentFPass = new Intent(this, loginv2.class);
+        Intent intentFPass = new Intent(this, ForgotPw.class);
         startActivity(intentFPass);
     }
 

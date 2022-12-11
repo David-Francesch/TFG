@@ -18,4 +18,5 @@
     <string name="incorrectPass">Incorrect password name</string>
     <string name="incorrectUserPass">Incorrect user name and password</string>
     <string name="landscapeError">The app is not made to be used in landscape mode\nPlease turn your phone vertically</string>
+    <string name="userOrMail">Username or e-Mail</string>
 </resources>
