@@ -14,7 +14,7 @@ import android.widget.Toast;
 import java.text.DateFormat;
 import java.util.Calendar;
 
-public class RegisterWindow extends AppCompatActivity implements DatePickerDialog.OnDateSetListener {
+public class RegisterWindow extends MainActivity implements DatePickerDialog.OnDateSetListener {
 
     TextView fechaText;
 

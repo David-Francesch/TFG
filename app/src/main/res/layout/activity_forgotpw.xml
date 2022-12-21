@@ -43,7 +43,7 @@
             android:layout_centerInParent="true"
             android:layout_marginTop="180dp"
             android:hint="@string/userOrMail"
-            android:inputType="textNoSuggestions"
+            android:inputType="textEmailAddress"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -62,7 +62,8 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            android:onClick="sendMailPassword" />
 
         <ImageButton
             android:id="@+id/googlelogo"
